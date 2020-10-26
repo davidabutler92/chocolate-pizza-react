@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import './App.css';
 
 export default class Header extends Component {
     render() {
@@ -24,17 +23,6 @@ export default class Header extends Component {
                 <img src="./images/mail-icon.png" className="socials" alt="mail"/>
             </div>
             <div className="line" style={{backgroundImage: 'url(./images/hr-img.png)'}}></div> 
-            {/* <p>
-            Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            Learn React
-            </a> */}
         </section>
         </div>
         )

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Header.js';
 import Body from './Body.js';
@@ -8,7 +7,10 @@ import Footer from './Footer.js';
 
 function App() {
   return (
-    <Header />
+    <div className="parent-container">
+      <Header />
+      <Body />
+    </div>
   );
 }
 
