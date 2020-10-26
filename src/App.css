@@ -1,11 +1,21 @@
-.center {
-  width: 1000px;
-  margin-left: 10%;
+.parent-container {
   display: flex;
   justify-content: center;
-  height: 2300px;
+  align-items: center;
+  flex-direction: column;
 }
 
+.center {
+  width: 1000px;
+}
+
+.pizza-img {
+  width: 1000px;
+}
+.main {
+  margin-top: 80px;
+  width: 1000px;
+}
 .header {
   height: 200px;
   margin-top: 20px;
@@ -50,3 +60,25 @@
   height: 15px;
   margin-top: 20px;
 }
+
+.print {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+.grey {
+  color: rgb(139, 139, 139);
+}
+
+.print-image {
+  float: right;
+}
+
+.h1 {
+  font-size: 4em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  height: 50px;
+}
+
