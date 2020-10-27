@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 2300px;
 }
 
 .center {
@@ -39,9 +40,9 @@
 }
 
 .cursive {
-  font-family: 'DynalightRegular';
+  font-family: cursive;
   font-weight: normal;
-  font-style: normal;
+  font-style: italic;
   font-size: 4em;
   margin: 5px;
   margin-top: 30px;
@@ -81,4 +82,78 @@
   font-weight: bold;
   height: 50px;
 }
+
+.text {
+  font-size: 1.4em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 30px;
+}
+
+.ingredients {
+  width: 1000px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5em;
+  line-height: 35px;
+}
+
+.vanessa {
+  margin-top: 50px;
+  width: 1000px;
+}
+
+.bio {
+  position: relative;
+  left: 150px;
+  bottom: 75px;
+  font-size: 1.3em;
+  width: 600px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.name {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  bottom: 15px;
+  left: 45px;
+}
+
+.button {
+  width: 200px;
+  height: 30px;
+  color: white;
+  background-color: #be6037;
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  float: right;
+  position: relative;
+  bottom: 100px;
+}
+
+.vanessa-photo {
+  position: relative;
+  top: 55px;
+}
+
+.footer {
+  width: 1000px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.3em;
+}
+
+.small-logo {
+  margin: 20px;
+}
+
+
+
 
