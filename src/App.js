@@ -10,6 +10,9 @@ function App() {
     <div className="parent-container">
       <Header />
       <Body />
+      <Ingredients />
+      <Bio />
+      <Footer />
     </div>
   );
 }
